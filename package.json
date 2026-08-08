@@ -1,0 +1,24 @@
+{
+  "name": "queuemaxxing",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "server",
+    "demo",
+    "web"
+  ],
+  "scripts": {
+    "dev": "concurrently -n queue,demo,web -c yellow,cyan,magenta \"npm run dev -w server\" \"npm run dev -w demo\" \"npm run dev -w web\"",
+    "dev:server": "npm run dev -w server",
+    "dev:demo": "npm run dev -w demo",
+    "dev:web": "npm run dev -w web",
+    "build": "npm run build -w server && npm run build -w demo && npm run build -w web",
+    "start": "npm run start -w server"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "allowScripts": {
+    "esbuild@0.21.5": true
+  }
+}

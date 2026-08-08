@@ -1,0 +1,19 @@
+# Local learning notes (not for the repo)
+LEARNING.md
+PROBLEM-EXPLAINED.md
+PLAN.md
+
+# Runtime data
+data/queues/
+data/**/*.log
+data/**/meta.json
+
+# Dependencies
+node_modules/
+server/node_modules/
+web/node_modules/
+
+# Build output
+server/dist/
+demo/dist/
+web/dist/
