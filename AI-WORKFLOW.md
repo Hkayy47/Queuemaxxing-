@@ -46,10 +46,6 @@ That is the difference between “vibe coding” and **directed AI engineering**
            ▼
 ┌─────────────────────┐
 │ 7. Ship             │  Commit, push, keep local study notes out of git
-└─────────────────────�──────────┬──────────┘
-           ▼
-┌─────────────────────┐
-│ 7. Ship             │  Commit, push, keep local study notes out of git
 └─────────────────────┘
 ```
 
