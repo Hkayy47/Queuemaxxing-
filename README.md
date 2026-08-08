@@ -67,12 +67,13 @@ Or explore manually:
 
 ```text
 Queuemaxxing-/
-  README.md     ← you are here
-  package.json  ← starts queue + demo + website together
-  server/       ← THE BRAIN (frankenstein queue)
-  demo/         ← WEBHOOK DELIVERY SERVICE (uses the queue)
-  web/          ← THE FACE (controls + live lanes)
-  data/         ← durable WAL files on disk
+  README.md        ← you are here
+  AI-WORKFLOW.md   ← how AI agents + planning were used to build this
+  package.json     ← starts queue + demo + website together
+  server/          ← THE BRAIN (frankenstein queue)
+  demo/            ← WEBHOOK DELIVERY SERVICE (uses the queue)
+  web/             ← THE FACE (controls + live lanes)
+  data/            ← durable WAL files on disk
 ```
 
 ### `server/` — the brain
